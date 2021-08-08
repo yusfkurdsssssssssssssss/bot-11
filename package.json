@@ -1,15 +1,15 @@
 {
-  "name": "evobot",
+  "name": "tony",
   "version": "0.9.0",
   "description": "Discord music bot built with discord.js",
-  "main": "index.js",
+  "main": "tony.js",
   "author": "Erit Islami <eritislami@gmail.com>",
   "private": true,
   "homepage": "https://github.com/eritislami/evobot",
   "repository": "github:eritislami/evobot",
   "bugs": "https://github.com/eritislami/evobot/issues",
   "engines": {
-    "node": ">=12.0.0"
+     "node": "12.x"
   },
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
@@ -24,6 +24,6 @@
     "ytdl-core": "^4.4.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node tony.js"
   }
 }
